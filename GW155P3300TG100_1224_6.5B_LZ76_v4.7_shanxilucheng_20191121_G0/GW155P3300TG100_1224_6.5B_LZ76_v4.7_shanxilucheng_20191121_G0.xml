@@ -559,7 +559,7 @@
     <Channel>
       <Name>P_OptimalModeGain</Name>
       <DataType>float</DataType>
-      <InitialValue>1.747E+06</InitialValue>
+      <InitialValue>1586000</InitialValue>
     </Channel>
     <Channel>
       <Name>P_IndividualPitchCorrectionFactor</Name>
@@ -1606,9 +1606,9 @@
         <Value Name="DenominatorType">SecondOrder</Value>
         <Value Name="NumeratorTC">0</Value>
         <Value Name="DenominatorTC">0</Value>
-        <Value Name="NumeratorFrequency">1.254</Value>
+        <Value Name="NumeratorFrequency">1.424</Value>
         <Value Name="NumeratorDampingRatio">0.05</Value>
-        <Value Name="DenominatorFrequency">1.254</Value>
+        <Value Name="DenominatorFrequency">1.424</Value>
         <Value Name="DenominatorDampingRatio">0.2</Value>
         <Value Name="W0">0</Value>
         <Value Name="PrewarpingWc">0</Value>
@@ -1767,9 +1767,9 @@
         <Value Name="DenominatorType">SecondOrder</Value>
         <Value Name="NumeratorTC">0</Value>
         <Value Name="DenominatorTC">0</Value>
-        <Value Name="NumeratorFrequency">1.254</Value>
+        <Value Name="NumeratorFrequency">1.424</Value>
         <Value Name="NumeratorDampingRatio">0.03</Value>
-        <Value Name="DenominatorFrequency">1.254</Value>
+        <Value Name="DenominatorFrequency">1.424</Value>
         <Value Name="DenominatorDampingRatio">0.2</Value>
         <Value Name="W0">0</Value>
         <Value Name="PrewarpingWc">0</Value>
@@ -1876,9 +1876,9 @@
         <Value Name="DenominatorType">SecondOrder</Value>
         <Value Name="NumeratorTC">0</Value>
         <Value Name="DenominatorTC">0</Value>
-        <Value Name="NumeratorFrequency">1.254</Value>
+        <Value Name="NumeratorFrequency">1.424</Value>
         <Value Name="NumeratorDampingRatio">0.5</Value>
-        <Value Name="DenominatorFrequency">1.254</Value>
+        <Value Name="DenominatorFrequency">1.424</Value>
         <Value Name="DenominatorDampingRatio">0.2</Value>
         <Value Name="W0">0</Value>
         <Value Name="PrewarpingWc">0</Value>
