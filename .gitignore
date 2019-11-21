@@ -1,3 +1,7 @@
 *.xlsx
 *.xlsx
-*.dbtask_gitignore/
+*.db
+task_gitignore/
+
+
+task_gitignore2/
