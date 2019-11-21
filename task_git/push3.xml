@@ -519,7 +519,7 @@
     <Channel>
       <Name>P_MaximumGeneratorTorque</Name>
       <DataType>float</DataType>
-      <InitialValue>2457400</InitialValue>
+      <InitialValue>2457500</InitialValue>
     </Channel>
     <Channel>
       <Name>P_PitchActuatorType</Name>
