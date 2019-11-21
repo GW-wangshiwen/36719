@@ -1059,7 +1059,7 @@
     <Channel>
       <Name>P_Airdensity</Name>
       <DataType>float</DataType>
-      <InitialValue>1.225</InitialValue>
+      <InitialValue>1.195</InitialValue>
     </Channel>
     <Channel>
       <Name>P_Jrotor</Name>
