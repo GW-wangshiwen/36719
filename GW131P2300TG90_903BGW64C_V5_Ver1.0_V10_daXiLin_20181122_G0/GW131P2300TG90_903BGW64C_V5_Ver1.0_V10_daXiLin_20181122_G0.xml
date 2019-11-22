@@ -159,7 +159,7 @@
     <Channel>
       <Name>P_LowSpeedSyncSpeed</Name>
       <DataType>float</DataType>
-      <InitialValue>0.6282</InitialValue>
+      <InitialValue>0.6807</InitialValue>
     </Channel>
     <Channel>
       <Name>P_SpeedSetpointRateLimit</Name>
@@ -214,7 +214,7 @@
     <Channel>
       <Name>P_LowWindSpeedGenSpeed</Name>
       <DataType>float</DataType>
-      <InitialValue>0.6282</InitialValue>
+      <InitialValue>0.6807</InitialValue>
     </Channel>
     <Channel>
       <Name>P_ShutdownMaxPower</Name>
@@ -554,7 +554,7 @@
     <Channel>
       <Name>P_OptimalModeGain</Name>
       <DataType>float</DataType>
-      <InitialValue>652905</InitialValue>
+      <InitialValue>773273</InitialValue>
     </Channel>
     <Channel>
       <Name>P_IndividualPitchCorrectionFactor</Name>
@@ -1586,9 +1586,9 @@
         <Value Name="DenominatorType">SecondOrder</Value>
         <Value Name="NumeratorTC">0</Value>
         <Value Name="DenominatorTC">0</Value>
-        <Value Name="NumeratorFrequency">1.5378</Value>
+        <Value Name="NumeratorFrequency">1.55</Value>
         <Value Name="NumeratorDampingRatio">0.01</Value>
-        <Value Name="DenominatorFrequency">1.5378</Value>
+        <Value Name="DenominatorFrequency">1.55</Value>
         <Value Name="DenominatorDampingRatio">0.1</Value>
         <Value Name="W0">0</Value>
         <Value Name="PrewarpingWc">0</Value>
@@ -1695,9 +1695,9 @@
         <Value Name="DenominatorType">SecondOrder</Value>
         <Value Name="NumeratorTC">0</Value>
         <Value Name="DenominatorTC">0</Value>
-        <Value Name="NumeratorFrequency">1.5378</Value>
+        <Value Name="NumeratorFrequency">1.55</Value>
         <Value Name="NumeratorDampingRatio">0.01</Value>
-        <Value Name="DenominatorFrequency">1.5378</Value>
+        <Value Name="DenominatorFrequency">1.55</Value>
         <Value Name="DenominatorDampingRatio">0.1</Value>
         <Value Name="W0">0</Value>
         <Value Name="PrewarpingWc">0</Value>
@@ -1799,14 +1799,14 @@
         <Value Name="PrewarpingWc">0</Value>
       </Row>
       <Row>
-        <Value Name="Enabled">0</Value>
+        <Value Name="Enabled">1</Value>
         <Value Name="NumeratorType">SecondOrder</Value>
         <Value Name="DenominatorType">SecondOrder</Value>
         <Value Name="NumeratorTC">0</Value>
         <Value Name="DenominatorTC">0</Value>
-        <Value Name="NumeratorFrequency">1.5378</Value>
+        <Value Name="NumeratorFrequency">1.55</Value>
         <Value Name="NumeratorDampingRatio">0.02</Value>
-        <Value Name="DenominatorFrequency">1.5378</Value>
+        <Value Name="DenominatorFrequency">1.55</Value>
         <Value Name="DenominatorDampingRatio">0.1</Value>
         <Value Name="W0">0</Value>
         <Value Name="PrewarpingWc">0</Value>
@@ -2433,7 +2433,7 @@
     </Table>
     <Table>
       <Name>T_EEdotThresholdOnPitch</Name>
-      <Enabled>1</Enabled>
+      <Enabled>0</Enabled>
       <RowCount>2</RowCount>
       <Length>6</Length>
       <Row>
