@@ -19,7 +19,7 @@
     <Channel>
       <Name>P_FaultPitchRunawayRate</Name>
       <DataType>float</DataType>
-      <InitialValue>-0.0694</InitialValue>
+      <InitialValue>-0.0698</InitialValue>
     </Channel>
     <Channel>
       <Name>P_FaultPitchRunawayLimit</Name>
@@ -29,7 +29,7 @@
     <Channel>
       <Name>P_FaultOverspeedRampRate</Name>
       <DataType>float</DataType>
-      <InitialValue>0.01</InitialValue>
+      <InitialValue>0.05</InitialValue>
     </Channel>
     <Channel>
       <Name>P_FaultOverspeedStrategy</Name>
@@ -59,12 +59,12 @@
     <Channel>
       <Name>P_ShaftPowerTargetRateLimit</Name>
       <DataType>float</DataType>
-      <InitialValue>55000</InitialValue>
+      <InitialValue>50000</InitialValue>
     </Channel>
     <Channel>
       <Name>P_SteadyShaftPowerLimit</Name>
       <DataType>float</DataType>
-      <InitialValue>2760553.5</InitialValue>
+      <InitialValue>2760553.8</InitialValue>
     </Channel>
     <Channel>
       <Name>P_MinimumFinePitch</Name>
@@ -74,22 +74,22 @@
     <Channel>
       <Name>P_PositiveFeatherAngle</Name>
       <DataType>float</DataType>
-      <InitialValue>1.5534</InitialValue>
+      <InitialValue>1.5533</InitialValue>
     </Channel>
     <Channel>
       <Name>P_MinimumPitchRateLimit</Name>
       <DataType>float</DataType>
-      <InitialValue>-0.0694</InitialValue>
+      <InitialValue>-0.0698</InitialValue>
     </Channel>
     <Channel>
       <Name>P_MaximumPitchRateLimit</Name>
       <DataType>float</DataType>
-      <InitialValue>0.10472</InitialValue>
+      <InitialValue>0.1047</InitialValue>
     </Channel>
     <Channel>
       <Name>P_DeratingPowerRateLimit</Name>
       <DataType>float</DataType>
-      <InitialValue>30000</InitialValue>
+      <InitialValue>55000</InitialValue>
     </Channel>
     <Channel>
       <Name>P_YawErrorDeratingEnable</Name>
@@ -119,7 +119,7 @@
     <Channel>
       <Name>P_NacAccXDeratingPower</Name>
       <DataType>float</DataType>
-      <InitialValue>3000000</InitialValue>
+      <InitialValue>2200000</InitialValue>
     </Channel>
     <Channel>
       <Name>P_NacAccXDeratingTime</Name>
@@ -139,7 +139,7 @@
     <Channel>
       <Name>P_TurDeratingGenSpeedSafeFactor</Name>
       <DataType>float</DataType>
-      <InitialValue>1.2</InitialValue>
+      <InitialValue>1.05</InitialValue>
     </Channel>
     <Channel>
       <Name>P_TurDeratingGenSpeedSafeCount</Name>
@@ -149,7 +149,7 @@
     <Channel>
       <Name>P_TurDeratingPower</Name>
       <DataType>float</DataType>
-      <InitialValue>2000000</InitialValue>
+      <InitialValue>1297713.385</InitialValue>
     </Channel>
     <Channel>
       <Name>P_TurDeratingTime</Name>
@@ -179,7 +179,7 @@
     <Channel>
       <Name>P_LowSpeedSyncSpeed</Name>
       <DataType>float</DataType>
-      <InitialValue>0.6283</InitialValue>
+      <InitialValue>0.4189</InitialValue>
     </Channel>
     <Channel>
       <Name>P_SpeedSetpointRateLimit</Name>
@@ -204,7 +204,7 @@
     <Channel>
       <Name>P_StartupWaitPitchangle</Name>
       <DataType>float</DataType>
-      <InitialValue>0.873</InitialValue>
+      <InitialValue>0.87267</InitialValue>
     </Channel>
     <Channel>
       <Name>P_StartupWaitTime</Name>
@@ -214,12 +214,12 @@
     <Channel>
       <Name>P_StartupWaitSpeed</Name>
       <DataType>float</DataType>
-      <InitialValue>0.0471</InitialValue>
+      <InitialValue>0.058</InitialValue>
     </Channel>
     <Channel>
       <Name>P_RunupMinimumPitchRateLimit</Name>
       <DataType>float</DataType>
-      <InitialValue>-0.0227</InitialValue>
+      <InitialValue>-0.02269</InitialValue>
     </Channel>
     <Channel>
       <Name>P_PowerMinimumPitchRateLimit</Name>
@@ -234,7 +234,7 @@
     <Channel>
       <Name>P_LowWindSpeedGenSpeed</Name>
       <DataType>float</DataType>
-      <InitialValue>0.6283</InitialValue>
+      <InitialValue>0.4189</InitialValue>
     </Channel>
     <Channel>
       <Name>P_ShutdownMaxPower</Name>
@@ -264,7 +264,7 @@
     <Channel>
       <Name>P_NormalShutdownPitchRate</Name>
       <DataType>float</DataType>
-      <InitialValue>0.03491</InitialValue>
+      <InitialValue>0.0349</InitialValue>
     </Channel>
     <Channel>
       <Name>P_FastShutdownPitchRate</Name>
@@ -309,7 +309,7 @@
     <Channel>
       <Name>P_MaxGeneratorSpeedForSwTrip</Name>
       <DataType>float</DataType>
-      <InitialValue>1.4458</InitialValue>
+      <InitialValue>1.421</InitialValue>
     </Channel>
     <Channel>
       <Name>P_SustainedSwOverspeedMaxDuration</Name>
@@ -344,12 +344,12 @@
     <Channel>
       <Name>P_CollectivePitchMinRate</Name>
       <DataType>float</DataType>
-      <InitialValue>-0.1326</InitialValue>
+      <InitialValue>-0.0873</InitialValue>
     </Channel>
     <Channel>
       <Name>P_CollectivePitchMinAngle</Name>
       <DataType>float</DataType>
-      <InitialValue>-0.0436</InitialValue>
+      <InitialValue>-0.01745</InitialValue>
     </Channel>
     <Channel>
       <Name>P_CollectivePitchMinAngleForRated</Name>
@@ -359,12 +359,12 @@
     <Channel>
       <Name>P_PowerForCollectivePitchMinAngle</Name>
       <DataType>float</DataType>
-      <InitialValue>10800000</InitialValue>
+      <InitialValue>1080000</InitialValue>
     </Channel>
     <Channel>
       <Name>P_MinIndivPitchAngle</Name>
       <DataType>float</DataType>
-      <InitialValue>-0.043633</InitialValue>
+      <InitialValue>-0.01745</InitialValue>
     </Channel>
     <Channel>
       <Name>P_MaxPitchDemandDifference</Name>
@@ -379,17 +379,17 @@
     <Channel>
       <Name>P_MaximumPitchFollowingError</Name>
       <DataType>float</DataType>
-      <InitialValue>0.05236</InitialValue>
+      <InitialValue>0.0611</InitialValue>
     </Channel>
     <Channel>
       <Name>P_MaximumPitchFollowingErrorRate</Name>
       <DataType>float</DataType>
-      <InitialValue>0.0611</InitialValue>
+      <InitialValue>0.052</InitialValue>
     </Channel>
     <Channel>
       <Name>P_PitchFollowingErrorMaxDuration</Name>
       <DataType>float</DataType>
-      <InitialValue>1</InitialValue>
+      <InitialValue>2</InitialValue>
     </Channel>
     <Channel>
       <Name>P_MaxPitchForFollowingError</Name>
@@ -399,17 +399,17 @@
     <Channel>
       <Name>P_MaximumPitchFollowingErrorVspr</Name>
       <DataType>float</DataType>
-      <InitialValue>0.0349</InitialValue>
+      <InitialValue>0.0262</InitialValue>
     </Channel>
     <Channel>
       <Name>P_MaxIpcDemandError</Name>
       <DataType>float</DataType>
-      <InitialValue>1.4</InitialValue>
+      <InitialValue>1.8</InitialValue>
     </Channel>
     <Channel>
       <Name>P_LowPitchAngleOverspeedSpeedLevel</Name>
       <DataType>float</DataType>
-      <InitialValue>1.4118</InitialValue>
+      <InitialValue>1.48</InitialValue>
     </Channel>
     <Channel>
       <Name>P_LowPitchAngleOverspeedPitchLevel</Name>
@@ -419,7 +419,7 @@
     <Channel>
       <Name>P_MinWindSpeedForYawError</Name>
       <DataType>float</DataType>
-      <InitialValue>4</InitialValue>
+      <InitialValue>2</InitialValue>
     </Channel>
     <Channel>
       <Name>P_MinWindSpeedForYawErrorFinePitch</Name>
@@ -459,32 +459,32 @@
     <Channel>
       <Name>P_NacelleAccelerationLimit</Name>
       <DataType>float</DataType>
-      <InitialValue>5</InitialValue>
+      <InitialValue>10000000000</InitialValue>
     </Channel>
     <Channel>
       <Name>P_NacelleAccelerationAvT</Name>
       <DataType>float</DataType>
-      <InitialValue>0.1</InitialValue>
+      <InitialValue>1</InitialValue>
     </Channel>
     <Channel>
       <Name>P_FilteredGeneratorAccelerationLimit</Name>
       <DataType>float</DataType>
-      <InitialValue>1e10</InitialValue>
+      <InitialValue>0.03</InitialValue>
     </Channel>
     <Channel>
       <Name>P_GeneratorAccelerationFilterTime1</Name>
       <DataType>float</DataType>
-      <InitialValue>1</InitialValue>
+      <InitialValue>3</InitialValue>
     </Channel>
     <Channel>
       <Name>P_GeneratorAccelerationFilterTime2</Name>
       <DataType>float</DataType>
-      <InitialValue>0.03</InitialValue>
+      <InitialValue>0.1</InitialValue>
     </Channel>
     <Channel>
       <Name>P_ChannelsVersionNumber</Name>
       <DataType>uint</DataType>
-      <InitialValue>2038582749</InitialValue>
+      <InitialValue>1269013422</InitialValue>
     </Channel>
     <Channel>
       <Name>P_ControllerCycleTime</Name>
@@ -499,7 +499,7 @@
     <Channel>
       <Name>P_RotorRadius</Name>
       <DataType>float</DataType>
-      <InitialValue>69.754</InitialValue>
+      <InitialValue>70</InitialValue>
     </Channel>
     <Channel>
       <Name>P_DisableCalibrations</Name>
@@ -514,17 +514,17 @@
     <Channel>
       <Name>P_NormalShutdownLullDuration</Name>
       <DataType>float</DataType>
-      <InitialValue>5</InitialValue>
+      <InitialValue>0.1</InitialValue>
     </Channel>
     <Channel>
       <Name>P_PowerRampingLullDuration</Name>
       <DataType>float</DataType>
-      <InitialValue>5</InitialValue>
+      <InitialValue>1</InitialValue>
     </Channel>
     <Channel>
       <Name>P_ConnectionLullDuration</Name>
       <DataType>float</DataType>
-      <InitialValue>5</InitialValue>
+      <InitialValue>1</InitialValue>
     </Channel>
     <Channel>
       <Name>P_LvrtLullDuration</Name>
@@ -554,12 +554,12 @@
     <Channel>
       <Name>P_SyncSpeedTol</Name>
       <DataType>float</DataType>
-      <InitialValue>0.05</InitialValue>
+      <InitialValue>0.056</InitialValue>
     </Channel>
     <Channel>
       <Name>P_GenSpeedAtSyncSpeedRequiredTime</Name>
       <DataType>float</DataType>
-      <InitialValue>5</InitialValue>
+      <InitialValue>1</InitialValue>
     </Channel>
     <Channel>
       <Name>P_PitchRateDeadband</Name>
@@ -589,7 +589,7 @@
     <Channel>
       <Name>P_OptimalModeGain</Name>
       <DataType>float</DataType>
-      <InitialValue>1.248E+06</InitialValue>
+      <InitialValue>1.4E+06</InitialValue>
     </Channel>
     <Channel>
       <Name>P_IndividualPitchCorrectionFactor</Name>
@@ -624,12 +624,12 @@
     <Channel>
       <Name>P_PitchSpeedDerivativeTimeConstant</Name>
       <DataType>float</DataType>
-      <InitialValue>0.65</InitialValue>
+      <InitialValue>0.6</InitialValue>
     </Channel>
     <Channel>
       <Name>P_PitchSpeedDerivativeTimeConstantSlow</Name>
       <DataType>float</DataType>
-      <InitialValue>0.65</InitialValue>
+      <InitialValue>0</InitialValue>
     </Channel>
     <Channel>
       <Name>P_PitchBias</Name>
@@ -644,7 +644,7 @@
     <Channel>
       <Name>P_PitchBiasSpeedFactor</Name>
       <DataType>float</DataType>
-      <InitialValue>0.12</InitialValue>
+      <InitialValue>0.08</InitialValue>
     </Channel>
     <Channel>
       <Name>P_PitchBiasFilterUpwardTc</Name>
@@ -744,12 +744,12 @@
     <Channel>
       <Name>P_PitchAccelerationLimit</Name>
       <DataType>float</DataType>
-      <InitialValue>0.349</InitialValue>
+      <InitialValue>0.4363</InitialValue>
     </Channel>
     <Channel>
       <Name>P_UltimateRateLimit</Name>
       <DataType>float</DataType>
-      <InitialValue>0.10472</InitialValue>
+      <InitialValue>0.1222</InitialValue>
     </Channel>
     <Channel>
       <Name>P_MaximumTorqueRate</Name>
@@ -774,7 +774,7 @@
     <Channel>
       <Name>P_ConstantPowerControlFlag</Name>
       <DataType>int</DataType>
-      <InitialValue>1</InitialValue>
+      <InitialValue>0</InitialValue>
     </Channel>
     <Channel>
       <Name>P_MinimumTorqueFactor</Name>
@@ -799,12 +799,12 @@
     <Channel>
       <Name>P_TorqueSpeedProportionalGain</Name>
       <DataType>float</DataType>
-      <InitialValue>9893502</InitialValue>
+      <InitialValue>9740589</InitialValue>
     </Channel>
     <Channel>
       <Name>P_TorqueSpeedIntegralGain</Name>
       <DataType>float</DataType>
-      <InitialValue>2679490</InitialValue>
+      <InitialValue>2426597</InitialValue>
     </Channel>
     <Channel>
       <Name>P_TorqueSpeedDerivativeGain</Name>
@@ -814,7 +814,7 @@
     <Channel>
       <Name>P_TorqueSpeedGainFactorMinSpeed</Name>
       <DataType>float</DataType>
-      <InitialValue>1</InitialValue>
+      <InitialValue>0.5</InitialValue>
     </Channel>
     <Channel>
       <Name>P_DriveTrainDamperGain</Name>
@@ -1089,12 +1089,12 @@
     <Channel>
       <Name>P_NacelleAccFAEnabled</Name>
       <DataType>bool</DataType>
-      <InitialValue>false</InitialValue>
+      <InitialValue>true</InitialValue>
     </Channel>
     <Channel>
       <Name>P_NacelleAccFAGain</Name>
       <DataType>float</DataType>
-      <InitialValue>0.03</InitialValue>
+      <InitialValue>0.05</InitialValue>
     </Channel>
     <Channel>
       <Name>P_NacelleAccFABelowRated</Name>
@@ -1119,17 +1119,17 @@
     <Channel>
       <Name>P_DualPitchSpeedGainsEnable</Name>
       <DataType>bool</DataType>
-      <InitialValue>true</InitialValue>
+      <InitialValue>false</InitialValue>
     </Channel>
     <Channel>
       <Name>P_DualPitchSpeedGainsSpeedThreshold</Name>
       <DataType>float</DataType>
-      <InitialValue>1.2851</InitialValue>
+      <InitialValue>1.3</InitialValue>
     </Channel>
     <Channel>
       <Name>P_DualPitchSpeedGainsSpeedDuration</Name>
       <DataType>float</DataType>
-      <InitialValue>1</InitialValue>
+      <InitialValue>2</InitialValue>
     </Channel>
     <Channel>
       <Name>P_ExtraPitchRateAboveThreshold</Name>
@@ -1139,12 +1139,12 @@
     <Channel>
       <Name>P_DisableNonLinearTermBelowQdemValue</Name>
       <DataType>float</DataType>
-      <InitialValue>1804820</InitialValue>
+      <InitialValue>1800000</InitialValue>
     </Channel>
     <Channel>
       <Name>P_NonLinearAcrDyWaitTime</Name>
       <DataType>float</DataType>
-      <InitialValue>20</InitialValue>
+      <InitialValue>30</InitialValue>
     </Channel>
     <Channel>
       <Name>P_QdemMovAvTC</Name>
@@ -1164,7 +1164,7 @@
     <Channel>
       <Name>P_LowestTorsionalModeHalfPeriod</Name>
       <DataType>float</DataType>
-      <InitialValue>0.36</InitialValue>
+      <InitialValue>0.3</InitialValue>
     </Channel>
     <Channel>
       <Name>P_NonLinearAcrDyTimeLimit</Name>
@@ -1179,7 +1179,7 @@
     <Channel>
       <Name>P_NonLinearDelayAfterTrip</Name>
       <DataType>float</DataType>
-      <InitialValue>1.2</InitialValue>
+      <InitialValue>0.1</InitialValue>
     </Channel>
     <Channel>
       <Name>P_MinKickDurationEOGB</Name>
@@ -1349,12 +1349,12 @@
     <Channel>
       <Name>P_IpcPhaseShift</Name>
       <DataType>float</DataType>
-      <InitialValue>0.6981</InitialValue>
+      <InitialValue>0.47538</InitialValue>
     </Channel>
     <Channel>
       <Name>P_IpcMinimumPitch</Name>
       <DataType>float</DataType>
-      <InitialValue>-0.01745</InitialValue>
+      <InitialValue>-0.061</InitialValue>
     </Channel>
     <Channel>
       <Name>P_IpcMaximumPitch</Name>
@@ -1539,27 +1539,27 @@
     <Channel>
       <Name>P_TowerExcEnabled</Name>
       <DataType>bool</DataType>
-      <InitialValue>false</InitialValue>
+      <InitialValue>true</InitialValue>
     </Channel>
     <Channel>
       <Name>P_TowerExcLowSpeed</Name>
       <DataType>float</DataType>
-      <InitialValue>0.5655</InitialValue>
+      <InitialValue>0.792</InitialValue>
     </Channel>
     <Channel>
       <Name>P_TowerExcHighSpeed</Name>
       <DataType>float</DataType>
-      <InitialValue>0.6912</InitialValue>
+      <InitialValue>929</InitialValue>
     </Channel>
     <Channel>
       <Name>P_TowerExcLowSpeedMaxTorque</Name>
       <DataType>float</DataType>
-      <InitialValue>1770000</InitialValue>
+      <InitialValue>964801</InitialValue>
     </Channel>
     <Channel>
       <Name>P_TowerExcHighSpeedMinTorque</Name>
       <DataType>float</DataType>
-      <InitialValue>792000</InitialValue>
+      <InitialValue>736392</InitialValue>
     </Channel>
     <Channel>
       <Name>P_TowerExcSpeedRate</Name>
@@ -1569,7 +1569,7 @@
     <Channel>
       <Name>P_TowerExcWaitTime</Name>
       <DataType>float</DataType>
-      <InitialValue>60</InitialValue>
+      <InitialValue>20</InitialValue>
     </Channel>
     <Channel>
       <Name>P_EnableSysIdDemandPerturbations</Name>
@@ -1694,7 +1694,7 @@
     <Channel>
       <Name>P_HighGenSpeedDynCtrlBiasEnable</Name>
       <DataType>bool</DataType>
-      <InitialValue>true</InitialValue>
+      <InitialValue>false</InitialValue>
     </Channel>
     <Channel>
       <Name>P_HighGenSpeedDynCtrlBiasSpeedThreshold</Name>
@@ -1845,8 +1845,8 @@
         <Value Name="DenominatorTC">0</Value>
         <Value Name="NumeratorFrequency">0</Value>
         <Value Name="NumeratorDampingRatio">0</Value>
-        <Value Name="DenominatorFrequency">7.87</Value>
-        <Value Name="DenominatorDampingRatio">1</Value>
+        <Value Name="DenominatorFrequency">7.5</Value>
+        <Value Name="DenominatorDampingRatio">1.0</Value>
         <Value Name="W0">0</Value>
         <Value Name="PrewarpingWc">0</Value>
       </Row>
@@ -1856,48 +1856,9 @@
         <Value Name="DenominatorType">SecondOrder</Value>
         <Value Name="NumeratorTC">0</Value>
         <Value Name="DenominatorTC">0</Value>
-        <Value Name="NumeratorFrequency">1.49</Value>
+        <Value Name="NumeratorFrequency">0.8545</Value>
         <Value Name="NumeratorDampingRatio">0.01</Value>
-        <Value Name="DenominatorFrequency">1.49</Value>
-        <Value Name="DenominatorDampingRatio">0.1</Value>
-        <Value Name="W0">0</Value>
-        <Value Name="PrewarpingWc">0</Value>
-      </Row>
-      <Row>
-        <Value Name="Enabled">1</Value>
-        <Value Name="NumeratorType">SecondOrder</Value>
-        <Value Name="DenominatorType">SecondOrder</Value>
-        <Value Name="NumeratorTC">0</Value>
-        <Value Name="DenominatorTC">0</Value>
-        <Value Name="NumeratorFrequency">3.7071</Value>
-        <Value Name="NumeratorDampingRatio">0.02</Value>
-        <Value Name="DenominatorFrequency">3.7071</Value>
-        <Value Name="DenominatorDampingRatio">0.2</Value>
-        <Value Name="W0">1.2357</Value>
-        <Value Name="PrewarpingWc">0</Value>
-      </Row>
-      <Row>
-        <Value Name="Enabled">1</Value>
-        <Value Name="NumeratorType">SecondOrder</Value>
-        <Value Name="DenominatorType">SecondOrder</Value>
-        <Value Name="NumeratorTC">0</Value>
-        <Value Name="DenominatorTC">0</Value>
-        <Value Name="NumeratorFrequency">9.8779</Value>
-        <Value Name="NumeratorDampingRatio">0.014</Value>
-        <Value Name="DenominatorFrequency">9.8779</Value>
-        <Value Name="DenominatorDampingRatio">0.14</Value>
-        <Value Name="W0">0</Value>
-        <Value Name="PrewarpingWc">0</Value>
-      </Row>
-      <Row>
-        <Value Name="Enabled">1</Value>
-        <Value Name="NumeratorType">SecondOrder</Value>
-        <Value Name="DenominatorType">SecondOrder</Value>
-        <Value Name="NumeratorTC">0</Value>
-        <Value Name="DenominatorTC">0</Value>
-        <Value Name="NumeratorFrequency">6.6434</Value>
-        <Value Name="NumeratorDampingRatio">0.03</Value>
-        <Value Name="DenominatorFrequency">6.6434</Value>
+        <Value Name="DenominatorFrequency">0.8545</Value>
         <Value Name="DenominatorDampingRatio">0.3</Value>
         <Value Name="W0">0</Value>
         <Value Name="PrewarpingWc">0</Value>
@@ -1908,10 +1869,10 @@
         <Value Name="DenominatorType">SecondOrder</Value>
         <Value Name="NumeratorTC">0</Value>
         <Value Name="DenominatorTC">0</Value>
-        <Value Name="NumeratorFrequency">15.511</Value>
-        <Value Name="NumeratorDampingRatio">0.013</Value>
-        <Value Name="DenominatorFrequency">15.511</Value>
-        <Value Name="DenominatorDampingRatio">0.13</Value>
+        <Value Name="NumeratorFrequency">23</Value>
+        <Value Name="NumeratorDampingRatio">0.04</Value>
+        <Value Name="DenominatorFrequency">23</Value>
+        <Value Name="DenominatorDampingRatio">0.4</Value>
         <Value Name="W0">0</Value>
         <Value Name="PrewarpingWc">0</Value>
       </Row>
@@ -1921,10 +1882,10 @@
         <Value Name="DenominatorType">SecondOrder</Value>
         <Value Name="NumeratorTC">0</Value>
         <Value Name="DenominatorTC">0</Value>
-        <Value Name="NumeratorFrequency">7.4142</Value>
-        <Value Name="NumeratorDampingRatio">0.1</Value>
-        <Value Name="DenominatorFrequency">7.4142</Value>
-        <Value Name="DenominatorDampingRatio">0.4</Value>
+        <Value Name="NumeratorFrequency">3.707</Value>
+        <Value Name="NumeratorDampingRatio">0.03</Value>
+        <Value Name="DenominatorFrequency">3.707</Value>
+        <Value Name="DenominatorDampingRatio">0.3</Value>
         <Value Name="W0">1.2357</Value>
         <Value Name="PrewarpingWc">0</Value>
       </Row>
@@ -1934,10 +1895,49 @@
         <Value Name="DenominatorType">SecondOrder</Value>
         <Value Name="NumeratorTC">0</Value>
         <Value Name="DenominatorTC">0</Value>
-        <Value Name="NumeratorFrequency">22.737</Value>
-        <Value Name="NumeratorDampingRatio">0.015</Value>
-        <Value Name="DenominatorFrequency">22.737</Value>
-        <Value Name="DenominatorDampingRatio">0.15</Value>
+        <Value Name="NumeratorFrequency">7.414</Value>
+        <Value Name="NumeratorDampingRatio">0.03</Value>
+        <Value Name="DenominatorFrequency">7.414</Value>
+        <Value Name="DenominatorDampingRatio">0.3</Value>
+        <Value Name="W0">1.2357</Value>
+        <Value Name="PrewarpingWc">0</Value>
+      </Row>
+      <Row>
+        <Value Name="Enabled">1</Value>
+        <Value Name="NumeratorType">SecondOrder</Value>
+        <Value Name="DenominatorType">SecondOrder</Value>
+        <Value Name="NumeratorTC">0</Value>
+        <Value Name="DenominatorTC">0</Value>
+        <Value Name="NumeratorFrequency">7.9824</Value>
+        <Value Name="NumeratorDampingRatio">0.02</Value>
+        <Value Name="DenominatorFrequency">7.9824</Value>
+        <Value Name="DenominatorDampingRatio">0.2</Value>
+        <Value Name="W0">0</Value>
+        <Value Name="PrewarpingWc">0</Value>
+      </Row>
+      <Row>
+        <Value Name="Enabled">1</Value>
+        <Value Name="NumeratorType">SecondOrder</Value>
+        <Value Name="DenominatorType">SecondOrder</Value>
+        <Value Name="NumeratorTC">0</Value>
+        <Value Name="DenominatorTC">0</Value>
+        <Value Name="NumeratorFrequency">9.8573</Value>
+        <Value Name="NumeratorDampingRatio">0.02</Value>
+        <Value Name="DenominatorFrequency">9.8573</Value>
+        <Value Name="DenominatorDampingRatio">0.1</Value>
+        <Value Name="W0">0</Value>
+        <Value Name="PrewarpingWc">0</Value>
+      </Row>
+      <Row>
+        <Value Name="Enabled">1</Value>
+        <Value Name="NumeratorType">SecondOrder</Value>
+        <Value Name="DenominatorType">SecondOrder</Value>
+        <Value Name="NumeratorTC">0</Value>
+        <Value Name="DenominatorTC">0</Value>
+        <Value Name="NumeratorFrequency">15.5</Value>
+        <Value Name="NumeratorDampingRatio">0.03</Value>
+        <Value Name="DenominatorFrequency">15.5</Value>
+        <Value Name="DenominatorDampingRatio">0.3</Value>
         <Value Name="W0">0</Value>
         <Value Name="PrewarpingWc">0</Value>
       </Row>
@@ -1954,7 +1954,7 @@
         <Value Name="DenominatorTC">0</Value>
         <Value Name="NumeratorFrequency">0</Value>
         <Value Name="NumeratorDampingRatio">0</Value>
-        <Value Name="DenominatorFrequency">7.87</Value>
+        <Value Name="DenominatorFrequency">6</Value>
         <Value Name="DenominatorDampingRatio">1</Value>
         <Value Name="W0">0</Value>
         <Value Name="PrewarpingWc">0</Value>
@@ -1965,35 +1965,9 @@
         <Value Name="DenominatorType">SecondOrder</Value>
         <Value Name="NumeratorTC">0</Value>
         <Value Name="DenominatorTC">0</Value>
-        <Value Name="NumeratorFrequency">1.49</Value>
+        <Value Name="NumeratorFrequency">0.8545</Value>
         <Value Name="NumeratorDampingRatio">0.01</Value>
-        <Value Name="DenominatorFrequency">1.49</Value>
-        <Value Name="DenominatorDampingRatio">0.1</Value>
-        <Value Name="W0">0</Value>
-        <Value Name="PrewarpingWc">0</Value>
-      </Row>
-      <Row>
-        <Value Name="Enabled">1</Value>
-        <Value Name="NumeratorType">SecondOrder</Value>
-        <Value Name="DenominatorType">SecondOrder</Value>
-        <Value Name="NumeratorTC">0</Value>
-        <Value Name="DenominatorTC">0</Value>
-        <Value Name="NumeratorFrequency">3.7071</Value>
-        <Value Name="NumeratorDampingRatio">0.03</Value>
-        <Value Name="DenominatorFrequency">3.7071</Value>
-        <Value Name="DenominatorDampingRatio">0.23</Value>
-        <Value Name="W0">1.2357</Value>
-        <Value Name="PrewarpingWc">0</Value>
-      </Row>
-      <Row>
-        <Value Name="Enabled">1</Value>
-        <Value Name="NumeratorType">SecondOrder</Value>
-        <Value Name="DenominatorType">SecondOrder</Value>
-        <Value Name="NumeratorTC">0</Value>
-        <Value Name="DenominatorTC">0</Value>
-        <Value Name="NumeratorFrequency">15.511</Value>
-        <Value Name="NumeratorDampingRatio">0.03</Value>
-        <Value Name="DenominatorFrequency">15.511</Value>
+        <Value Name="DenominatorFrequency">0.8545</Value>
         <Value Name="DenominatorDampingRatio">0.3</Value>
         <Value Name="W0">0</Value>
         <Value Name="PrewarpingWc">0</Value>
@@ -2004,22 +1978,9 @@
         <Value Name="DenominatorType">SecondOrder</Value>
         <Value Name="NumeratorTC">0</Value>
         <Value Name="DenominatorTC">0</Value>
-        <Value Name="NumeratorFrequency">9.8779</Value>
-        <Value Name="NumeratorDampingRatio">0.0366</Value>
-        <Value Name="DenominatorFrequency">9.8779</Value>
-        <Value Name="DenominatorDampingRatio">0.366</Value>
-        <Value Name="W0">0</Value>
-        <Value Name="PrewarpingWc">0</Value>
-      </Row>
-      <Row>
-        <Value Name="Enabled">1</Value>
-        <Value Name="NumeratorType">SecondOrder</Value>
-        <Value Name="DenominatorType">SecondOrder</Value>
-        <Value Name="NumeratorTC">0</Value>
-        <Value Name="DenominatorTC">0</Value>
-        <Value Name="NumeratorFrequency">6.6434</Value>
+        <Value Name="NumeratorFrequency">23</Value>
         <Value Name="NumeratorDampingRatio">0.04</Value>
-        <Value Name="DenominatorFrequency">6.6434</Value>
+        <Value Name="DenominatorFrequency">23</Value>
         <Value Name="DenominatorDampingRatio">0.4</Value>
         <Value Name="W0">0</Value>
         <Value Name="PrewarpingWc">0</Value>
@@ -2030,10 +1991,10 @@
         <Value Name="DenominatorType">SecondOrder</Value>
         <Value Name="NumeratorTC">0</Value>
         <Value Name="DenominatorTC">0</Value>
-        <Value Name="NumeratorFrequency">7.4142</Value>
-        <Value Name="NumeratorDampingRatio">0.1</Value>
-        <Value Name="DenominatorFrequency">7.4142</Value>
-        <Value Name="DenominatorDampingRatio">0.4</Value>
+        <Value Name="NumeratorFrequency">3.707</Value>
+        <Value Name="NumeratorDampingRatio">0.03</Value>
+        <Value Name="DenominatorFrequency">3.707</Value>
+        <Value Name="DenominatorDampingRatio">0.3</Value>
         <Value Name="W0">1.2357</Value>
         <Value Name="PrewarpingWc">0</Value>
       </Row>
@@ -2043,10 +2004,49 @@
         <Value Name="DenominatorType">SecondOrder</Value>
         <Value Name="NumeratorTC">0</Value>
         <Value Name="DenominatorTC">0</Value>
-        <Value Name="NumeratorFrequency">22.737</Value>
-        <Value Name="NumeratorDampingRatio">0.05</Value>
-        <Value Name="DenominatorFrequency">22.737</Value>
-        <Value Name="DenominatorDampingRatio">0.5</Value>
+        <Value Name="NumeratorFrequency">7.414</Value>
+        <Value Name="NumeratorDampingRatio">0.03</Value>
+        <Value Name="DenominatorFrequency">7.414</Value>
+        <Value Name="DenominatorDampingRatio">0.3</Value>
+        <Value Name="W0">1.2357</Value>
+        <Value Name="PrewarpingWc">0</Value>
+      </Row>
+      <Row>
+        <Value Name="Enabled">1</Value>
+        <Value Name="NumeratorType">SecondOrder</Value>
+        <Value Name="DenominatorType">SecondOrder</Value>
+        <Value Name="NumeratorTC">0</Value>
+        <Value Name="DenominatorTC">0</Value>
+        <Value Name="NumeratorFrequency">7.9824</Value>
+        <Value Name="NumeratorDampingRatio">0.02</Value>
+        <Value Name="DenominatorFrequency">7.9824</Value>
+        <Value Name="DenominatorDampingRatio">0.2</Value>
+        <Value Name="W0">0</Value>
+        <Value Name="PrewarpingWc">0</Value>
+      </Row>
+      <Row>
+        <Value Name="Enabled">1</Value>
+        <Value Name="NumeratorType">SecondOrder</Value>
+        <Value Name="DenominatorType">SecondOrder</Value>
+        <Value Name="NumeratorTC">0</Value>
+        <Value Name="DenominatorTC">0</Value>
+        <Value Name="NumeratorFrequency">9.8573</Value>
+        <Value Name="NumeratorDampingRatio">0.02</Value>
+        <Value Name="DenominatorFrequency">9.8573</Value>
+        <Value Name="DenominatorDampingRatio">0.1</Value>
+        <Value Name="W0">0</Value>
+        <Value Name="PrewarpingWc">0</Value>
+      </Row>
+      <Row>
+        <Value Name="Enabled">1</Value>
+        <Value Name="NumeratorType">SecondOrder</Value>
+        <Value Name="DenominatorType">SecondOrder</Value>
+        <Value Name="NumeratorTC">0</Value>
+        <Value Name="DenominatorTC">0</Value>
+        <Value Name="NumeratorFrequency">15.5</Value>
+        <Value Name="NumeratorDampingRatio">0.03</Value>
+        <Value Name="DenominatorFrequency">15.5</Value>
+        <Value Name="DenominatorDampingRatio">0.3</Value>
         <Value Name="W0">0</Value>
         <Value Name="PrewarpingWc">0</Value>
       </Row>
@@ -2063,7 +2063,7 @@
         <Value Name="DenominatorTC">0</Value>
         <Value Name="NumeratorFrequency">0</Value>
         <Value Name="NumeratorDampingRatio">0</Value>
-        <Value Name="DenominatorFrequency">7.87</Value>
+        <Value Name="DenominatorFrequency">6</Value>
         <Value Name="DenominatorDampingRatio">1</Value>
         <Value Name="W0">0</Value>
         <Value Name="PrewarpingWc">0</Value>
@@ -2074,35 +2074,9 @@
         <Value Name="DenominatorType">SecondOrder</Value>
         <Value Name="NumeratorTC">0</Value>
         <Value Name="DenominatorTC">0</Value>
-        <Value Name="NumeratorFrequency">1.49</Value>
+        <Value Name="NumeratorFrequency">0.8545</Value>
         <Value Name="NumeratorDampingRatio">0.01</Value>
-        <Value Name="DenominatorFrequency">1.49</Value>
-        <Value Name="DenominatorDampingRatio">0.1</Value>
-        <Value Name="W0">0</Value>
-        <Value Name="PrewarpingWc">0</Value>
-      </Row>
-      <Row>
-        <Value Name="Enabled">1</Value>
-        <Value Name="NumeratorType">SecondOrder</Value>
-        <Value Name="DenominatorType">SecondOrder</Value>
-        <Value Name="NumeratorTC">0</Value>
-        <Value Name="DenominatorTC">0</Value>
-        <Value Name="NumeratorFrequency">3.7071</Value>
-        <Value Name="NumeratorDampingRatio">0.03</Value>
-        <Value Name="DenominatorFrequency">3.7071</Value>
-        <Value Name="DenominatorDampingRatio">0.23</Value>
-        <Value Name="W0">1.2357</Value>
-        <Value Name="PrewarpingWc">0</Value>
-      </Row>
-      <Row>
-        <Value Name="Enabled">1</Value>
-        <Value Name="NumeratorType">SecondOrder</Value>
-        <Value Name="DenominatorType">SecondOrder</Value>
-        <Value Name="NumeratorTC">0</Value>
-        <Value Name="DenominatorTC">0</Value>
-        <Value Name="NumeratorFrequency">15.511</Value>
-        <Value Name="NumeratorDampingRatio">0.03</Value>
-        <Value Name="DenominatorFrequency">15.511</Value>
+        <Value Name="DenominatorFrequency">0.8545</Value>
         <Value Name="DenominatorDampingRatio">0.3</Value>
         <Value Name="W0">0</Value>
         <Value Name="PrewarpingWc">0</Value>
@@ -2113,22 +2087,9 @@
         <Value Name="DenominatorType">SecondOrder</Value>
         <Value Name="NumeratorTC">0</Value>
         <Value Name="DenominatorTC">0</Value>
-        <Value Name="NumeratorFrequency">9.8779</Value>
-        <Value Name="NumeratorDampingRatio">0.0366</Value>
-        <Value Name="DenominatorFrequency">9.8779</Value>
-        <Value Name="DenominatorDampingRatio">0.366</Value>
-        <Value Name="W0">0</Value>
-        <Value Name="PrewarpingWc">0</Value>
-      </Row>
-      <Row>
-        <Value Name="Enabled">1</Value>
-        <Value Name="NumeratorType">SecondOrder</Value>
-        <Value Name="DenominatorType">SecondOrder</Value>
-        <Value Name="NumeratorTC">0</Value>
-        <Value Name="DenominatorTC">0</Value>
-        <Value Name="NumeratorFrequency">6.6434</Value>
+        <Value Name="NumeratorFrequency">23</Value>
         <Value Name="NumeratorDampingRatio">0.04</Value>
-        <Value Name="DenominatorFrequency">6.6434</Value>
+        <Value Name="DenominatorFrequency">23</Value>
         <Value Name="DenominatorDampingRatio">0.4</Value>
         <Value Name="W0">0</Value>
         <Value Name="PrewarpingWc">0</Value>
@@ -2139,10 +2100,10 @@
         <Value Name="DenominatorType">SecondOrder</Value>
         <Value Name="NumeratorTC">0</Value>
         <Value Name="DenominatorTC">0</Value>
-        <Value Name="NumeratorFrequency">7.4142</Value>
-        <Value Name="NumeratorDampingRatio">0.1</Value>
-        <Value Name="DenominatorFrequency">7.4142</Value>
-        <Value Name="DenominatorDampingRatio">0.4</Value>
+        <Value Name="NumeratorFrequency">3.707</Value>
+        <Value Name="NumeratorDampingRatio">0.03</Value>
+        <Value Name="DenominatorFrequency">3.707</Value>
+        <Value Name="DenominatorDampingRatio">0.3</Value>
         <Value Name="W0">1.2357</Value>
         <Value Name="PrewarpingWc">0</Value>
       </Row>
@@ -2152,10 +2113,49 @@
         <Value Name="DenominatorType">SecondOrder</Value>
         <Value Name="NumeratorTC">0</Value>
         <Value Name="DenominatorTC">0</Value>
-        <Value Name="NumeratorFrequency">22.737</Value>
-        <Value Name="NumeratorDampingRatio">0.05</Value>
-        <Value Name="DenominatorFrequency">22.737</Value>
-        <Value Name="DenominatorDampingRatio">0.5</Value>
+        <Value Name="NumeratorFrequency">7.414</Value>
+        <Value Name="NumeratorDampingRatio">0.03</Value>
+        <Value Name="DenominatorFrequency">7.414</Value>
+        <Value Name="DenominatorDampingRatio">0.3</Value>
+        <Value Name="W0">1.2357</Value>
+        <Value Name="PrewarpingWc">0</Value>
+      </Row>
+      <Row>
+        <Value Name="Enabled">1</Value>
+        <Value Name="NumeratorType">SecondOrder</Value>
+        <Value Name="DenominatorType">SecondOrder</Value>
+        <Value Name="NumeratorTC">0</Value>
+        <Value Name="DenominatorTC">0</Value>
+        <Value Name="NumeratorFrequency">7.9824</Value>
+        <Value Name="NumeratorDampingRatio">0.02</Value>
+        <Value Name="DenominatorFrequency">7.9824</Value>
+        <Value Name="DenominatorDampingRatio">0.2</Value>
+        <Value Name="W0">0</Value>
+        <Value Name="PrewarpingWc">0</Value>
+      </Row>
+      <Row>
+        <Value Name="Enabled">1</Value>
+        <Value Name="NumeratorType">SecondOrder</Value>
+        <Value Name="DenominatorType">SecondOrder</Value>
+        <Value Name="NumeratorTC">0</Value>
+        <Value Name="DenominatorTC">0</Value>
+        <Value Name="NumeratorFrequency">9.8573</Value>
+        <Value Name="NumeratorDampingRatio">0.02</Value>
+        <Value Name="DenominatorFrequency">9.8573</Value>
+        <Value Name="DenominatorDampingRatio">0.1</Value>
+        <Value Name="W0">0</Value>
+        <Value Name="PrewarpingWc">0</Value>
+      </Row>
+      <Row>
+        <Value Name="Enabled">1</Value>
+        <Value Name="NumeratorType">SecondOrder</Value>
+        <Value Name="DenominatorType">SecondOrder</Value>
+        <Value Name="NumeratorTC">0</Value>
+        <Value Name="DenominatorTC">0</Value>
+        <Value Name="NumeratorFrequency">15.5</Value>
+        <Value Name="NumeratorDampingRatio">0.03</Value>
+        <Value Name="DenominatorFrequency">15.5</Value>
+        <Value Name="DenominatorDampingRatio">0.3</Value>
         <Value Name="W0">0</Value>
         <Value Name="PrewarpingWc">0</Value>
       </Row>
@@ -2165,27 +2165,66 @@
       <RowCount>8</RowCount>
       <Length>11</Length>
       <Row>
-        <Value Name="Enabled">0</Value>
+        <Value Name="Enabled">1</Value>
         <Value Name="NumeratorType">ZeroOrder</Value>
         <Value Name="DenominatorType">SecondOrder</Value>
         <Value Name="NumeratorTC">0</Value>
         <Value Name="DenominatorTC">0</Value>
         <Value Name="NumeratorFrequency">0</Value>
         <Value Name="NumeratorDampingRatio">0</Value>
-        <Value Name="DenominatorFrequency">5</Value>
-        <Value Name="DenominatorDampingRatio">0.8</Value>
+        <Value Name="DenominatorFrequency">5.9928</Value>
+        <Value Name="DenominatorDampingRatio">1</Value>
         <Value Name="W0">0</Value>
         <Value Name="PrewarpingWc">0</Value>
       </Row>
       <Row>
-        <Value Name="Enabled">0</Value>
+        <Value Name="Enabled">1</Value>
         <Value Name="NumeratorType">SecondOrder</Value>
         <Value Name="DenominatorType">SecondOrder</Value>
         <Value Name="NumeratorTC">0</Value>
         <Value Name="DenominatorTC">0</Value>
-        <Value Name="NumeratorFrequency">11.5926</Value>
+        <Value Name="NumeratorFrequency">0.74906</Value>
+        <Value Name="NumeratorDampingRatio">0.14606</Value>
+        <Value Name="DenominatorFrequency">0.74906</Value>
+        <Value Name="DenominatorDampingRatio">0.23583</Value>
+        <Value Name="W0">0</Value>
+        <Value Name="PrewarpingWc">0</Value>
+      </Row>
+      <Row>
+        <Value Name="Enabled">1</Value>
+        <Value Name="NumeratorType">SecondOrder</Value>
+        <Value Name="DenominatorType">SecondOrder</Value>
+        <Value Name="NumeratorTC">0</Value>
+        <Value Name="DenominatorTC">0</Value>
+        <Value Name="NumeratorFrequency">3.707</Value>
         <Value Name="NumeratorDampingRatio">0.03</Value>
-        <Value Name="DenominatorFrequency">11.5926</Value>
+        <Value Name="DenominatorFrequency">3.707</Value>
+        <Value Name="DenominatorDampingRatio">0.2</Value>
+        <Value Name="W0">1.2357</Value>
+        <Value Name="PrewarpingWc">0</Value>
+      </Row>
+      <Row>
+        <Value Name="Enabled">1</Value>
+        <Value Name="NumeratorType">SecondOrder</Value>
+        <Value Name="DenominatorType">SecondOrder</Value>
+        <Value Name="NumeratorTC">0</Value>
+        <Value Name="DenominatorTC">0</Value>
+        <Value Name="NumeratorFrequency">7.414</Value>
+        <Value Name="NumeratorDampingRatio">0.03</Value>
+        <Value Name="DenominatorFrequency">7.414</Value>
+        <Value Name="DenominatorDampingRatio">0.2</Value>
+        <Value Name="W0">1.2357</Value>
+        <Value Name="PrewarpingWc">0</Value>
+      </Row>
+      <Row>
+        <Value Name="Enabled">1</Value>
+        <Value Name="NumeratorType">SecondOrder</Value>
+        <Value Name="DenominatorType">SecondOrder</Value>
+        <Value Name="NumeratorTC">0</Value>
+        <Value Name="DenominatorTC">0</Value>
+        <Value Name="NumeratorFrequency">11.12</Value>
+        <Value Name="NumeratorDampingRatio">0.03</Value>
+        <Value Name="DenominatorFrequency">11.12</Value>
         <Value Name="DenominatorDampingRatio">0.2</Value>
         <Value Name="W0">1.2357</Value>
         <Value Name="PrewarpingWc">0</Value>
@@ -2196,49 +2235,10 @@
         <Value Name="DenominatorType">SecondOrder</Value>
         <Value Name="NumeratorTC">0</Value>
         <Value Name="DenominatorTC">0</Value>
-        <Value Name="NumeratorFrequency">3.8642</Value>
-        <Value Name="NumeratorDampingRatio">0.03</Value>
-        <Value Name="DenominatorFrequency">3.8642</Value>
-        <Value Name="DenominatorDampingRatio">0.23</Value>
-        <Value Name="W0">1.2357</Value>
-        <Value Name="PrewarpingWc">0</Value>
-      </Row>
-      <Row>
-        <Value Name="Enabled">0</Value>
-        <Value Name="NumeratorType">SecondOrder</Value>
-        <Value Name="DenominatorType">SecondOrder</Value>
-        <Value Name="NumeratorTC">0</Value>
-        <Value Name="DenominatorTC">0</Value>
-        <Value Name="NumeratorFrequency">7.7283</Value>
-        <Value Name="NumeratorDampingRatio">0.03</Value>
-        <Value Name="DenominatorFrequency">7.7283</Value>
-        <Value Name="DenominatorDampingRatio">0.32</Value>
-        <Value Name="W0">1.2357</Value>
-        <Value Name="PrewarpingWc">0</Value>
-      </Row>
-      <Row>
-        <Value Name="Enabled">0</Value>
-        <Value Name="NumeratorType">SecondOrder</Value>
-        <Value Name="DenominatorType">SecondOrder</Value>
-        <Value Name="NumeratorTC">0</Value>
-        <Value Name="DenominatorTC">0</Value>
-        <Value Name="NumeratorFrequency">0.69981</Value>
-        <Value Name="NumeratorDampingRatio">0.2348</Value>
-        <Value Name="DenominatorFrequency">0.69981</Value>
-        <Value Name="DenominatorDampingRatio">0.5</Value>
-        <Value Name="W0">0</Value>
-        <Value Name="PrewarpingWc">0</Value>
-      </Row>
-      <Row>
-        <Value Name="Enabled">0</Value>
-        <Value Name="NumeratorType">SecondOrder</Value>
-        <Value Name="DenominatorType">SecondOrder</Value>
-        <Value Name="NumeratorTC">0</Value>
-        <Value Name="DenominatorTC">0</Value>
-        <Value Name="NumeratorFrequency">1.3682</Value>
-        <Value Name="NumeratorDampingRatio">0.2038</Value>
-        <Value Name="DenominatorFrequency">1.3681</Value>
-        <Value Name="DenominatorDampingRatio">0.5</Value>
+        <Value Name="NumeratorFrequency">10.05</Value>
+        <Value Name="NumeratorDampingRatio">0.05</Value>
+        <Value Name="DenominatorFrequency">10.05</Value>
+        <Value Name="DenominatorDampingRatio">0.35</Value>
         <Value Name="W0">0</Value>
         <Value Name="PrewarpingWc">0</Value>
       </Row>
@@ -2338,8 +2338,8 @@
         <Value Name="DenominatorTC">0</Value>
         <Value Name="NumeratorFrequency">0</Value>
         <Value Name="NumeratorDampingRatio">0</Value>
-        <Value Name="DenominatorFrequency">12.3923</Value>
-        <Value Name="DenominatorDampingRatio">0.76958</Value>
+        <Value Name="DenominatorFrequency">0</Value>
+        <Value Name="DenominatorDampingRatio">0</Value>
         <Value Name="W0">0</Value>
         <Value Name="PrewarpingWc">0</Value>
       </Row>
@@ -2362,41 +2362,41 @@
       <RowCount>3</RowCount>
       <Length>11</Length>
       <Row>
-        <Value Name="Enabled">0</Value>
+        <Value Name="Enabled">1</Value>
         <Value Name="NumeratorType">ZeroOrder</Value>
         <Value Name="DenominatorType">SecondOrder</Value>
         <Value Name="NumeratorTC">0</Value>
         <Value Name="DenominatorTC">0</Value>
         <Value Name="NumeratorFrequency">0</Value>
         <Value Name="NumeratorDampingRatio">0</Value>
-        <Value Name="DenominatorFrequency">15</Value>
+        <Value Name="DenominatorFrequency">12.74</Value>
         <Value Name="DenominatorDampingRatio">0.707</Value>
         <Value Name="W0">0</Value>
         <Value Name="PrewarpingWc">0</Value>
       </Row>
       <Row>
-        <Value Name="Enabled">0</Value>
+        <Value Name="Enabled">1</Value>
         <Value Name="NumeratorType">SecondOrder</Value>
         <Value Name="DenominatorType">SecondOrder</Value>
         <Value Name="NumeratorTC">0</Value>
         <Value Name="DenominatorTC">0</Value>
-        <Value Name="NumeratorFrequency">3.3615</Value>
-        <Value Name="NumeratorDampingRatio">0.02</Value>
-        <Value Name="DenominatorFrequency">3.3615</Value>
-        <Value Name="DenominatorDampingRatio">0.4</Value>
+        <Value Name="NumeratorFrequency">3.71</Value>
+        <Value Name="NumeratorDampingRatio">0.05</Value>
+        <Value Name="DenominatorFrequency">3.71</Value>
+        <Value Name="DenominatorDampingRatio">0.9</Value>
         <Value Name="W0">1.2357</Value>
         <Value Name="PrewarpingWc">0</Value>
       </Row>
       <Row>
-        <Value Name="Enabled">0</Value>
+        <Value Name="Enabled">1</Value>
         <Value Name="NumeratorType">SecondOrder</Value>
         <Value Name="DenominatorType">SecondOrder</Value>
         <Value Name="NumeratorTC">0</Value>
         <Value Name="DenominatorTC">0</Value>
-        <Value Name="NumeratorFrequency">6.723</Value>
-        <Value Name="NumeratorDampingRatio">0.02</Value>
-        <Value Name="DenominatorFrequency">6.723</Value>
-        <Value Name="DenominatorDampingRatio">0.4</Value>
+        <Value Name="NumeratorFrequency">7.414</Value>
+        <Value Name="NumeratorDampingRatio">0.0183</Value>
+        <Value Name="DenominatorFrequency">7.414</Value>
+        <Value Name="DenominatorDampingRatio">0.4566</Value>
         <Value Name="W0">1.2357</Value>
         <Value Name="PrewarpingWc">0</Value>
       </Row>
@@ -2413,7 +2413,7 @@
         <Value Name="DenominatorTC">0</Value>
         <Value Name="NumeratorFrequency">0</Value>
         <Value Name="NumeratorDampingRatio">0</Value>
-        <Value Name="DenominatorFrequency">15</Value>
+        <Value Name="DenominatorFrequency">12.74</Value>
         <Value Name="DenominatorDampingRatio">0.707</Value>
         <Value Name="W0">0</Value>
         <Value Name="PrewarpingWc">0</Value>
@@ -2424,10 +2424,10 @@
         <Value Name="DenominatorType">SecondOrder</Value>
         <Value Name="NumeratorTC">0</Value>
         <Value Name="DenominatorTC">0</Value>
-        <Value Name="NumeratorFrequency">3.3615</Value>
-        <Value Name="NumeratorDampingRatio">0.02</Value>
-        <Value Name="DenominatorFrequency">3.3615</Value>
-        <Value Name="DenominatorDampingRatio">0.4</Value>
+        <Value Name="NumeratorFrequency">3.71</Value>
+        <Value Name="NumeratorDampingRatio">0.05</Value>
+        <Value Name="DenominatorFrequency">3.71</Value>
+        <Value Name="DenominatorDampingRatio">0.9</Value>
         <Value Name="W0">1.2357</Value>
         <Value Name="PrewarpingWc">0</Value>
       </Row>
@@ -2437,10 +2437,10 @@
         <Value Name="DenominatorType">SecondOrder</Value>
         <Value Name="NumeratorTC">0</Value>
         <Value Name="DenominatorTC">0</Value>
-        <Value Name="NumeratorFrequency">6.723</Value>
-        <Value Name="NumeratorDampingRatio">0.02</Value>
-        <Value Name="DenominatorFrequency">6.723</Value>
-        <Value Name="DenominatorDampingRatio">0.4</Value>
+        <Value Name="NumeratorFrequency">7.414</Value>
+        <Value Name="NumeratorDampingRatio">0.0183</Value>
+        <Value Name="DenominatorFrequency">7.414</Value>
+        <Value Name="DenominatorDampingRatio">0.4566</Value>
         <Value Name="W0">1.2357</Value>
         <Value Name="PrewarpingWc">0</Value>
       </Row>
@@ -2468,7 +2468,7 @@
       <RowCount>1</RowCount>
       <Length>11</Length>
       <Row>
-        <Value Name="Enabled">0</Value>
+        <Value Name="Enabled">1</Value>
         <Value Name="NumeratorType">ZeroOrder</Value>
         <Value Name="DenominatorType">SecondOrder</Value>
         <Value Name="NumeratorTC">0</Value>
@@ -2493,8 +2493,8 @@
         <Value Name="DenominatorTC">0.2</Value>
         <Value Name="NumeratorFrequency">0</Value>
         <Value Name="NumeratorDampingRatio">0</Value>
-        <Value Name="DenominatorFrequency">0.0</Value>
-        <Value Name="DenominatorDampingRatio">0.0</Value>
+        <Value Name="DenominatorFrequency">0</Value>
+        <Value Name="DenominatorDampingRatio">0</Value>
         <Value Name="W0">0</Value>
         <Value Name="PrewarpingWc">0</Value>
       </Row>
@@ -2505,56 +2505,53 @@
       <RowCount>2</RowCount>
       <Length>6</Length>
       <Row>
-        <Value Name="_0">0.0393</Value>
-        <Value Name="_1">0.0695</Value>
-        <Value Name="_2">0.133</Value>
-        <Value Name="_3">0.2101</Value>
-        <Value Name="_4">0.2616</Value>
-        <Value Name="_5">0.3194</Value>
+        <Value Name="_0">0.0347294938917976</Value>
+        <Value Name="_1">0.0888307155322862</Value>
+        <Value Name="_2">0.158464223385689</Value>
+        <Value Name="_3">0.212914485165794</Value>
+        <Value Name="_4">0.282897033158813</Value>
+        <Value Name="_5">0.345026178010471</Value>
       </Row>
       <Row>
-        <Value Name="_0">0.9817</Value>
-        <Value Name="_1">0.82517</Value>
-        <Value Name="_2">0.6022</Value>
-        <Value Name="_3">0.4856</Value>
-        <Value Name="_4">0.4474</Value>
-        <Value Name="_5">0.4020</Value>
+        <Value Name="_0">0.8812</Value>
+        <Value Name="_1">0.707</Value>
+        <Value Name="_2">0.562</Value>
+        <Value Name="_3">0.481</Value>
+        <Value Name="_4">0.3667</Value>
+        <Value Name="_5">0.2915</Value>
       </Row>
     </Table>
     <Table>
       <Name>T_PitchSpeedProportionalGainFast</Name>
-      <Enabled>1</Enabled>
+      <Enabled>0</Enabled>
       <RowCount>2</RowCount>
-      <Length>6</Length>
+      <Length>5</Length>
       <Row>
-        <Value Name="_0">0.0393</Value>
-        <Value Name="_1">0.0695</Value>
-        <Value Name="_2">0.133</Value>
-        <Value Name="_3">0.2101</Value>
-        <Value Name="_4">0.2616</Value>
-        <Value Name="_5">0.3194</Value>
+        <Value Name="_0">0.0496</Value>
+        <Value Name="_1">0.1649</Value>
+        <Value Name="_2">0.2423</Value>
+        <Value Name="_3">0.3081</Value>
+        <Value Name="_4">0.3483</Value>
       </Row>
       <Row>
-        <Value Name="_0">0.9817</Value>
-        <Value Name="_1">0.82517</Value>
-        <Value Name="_2">0.6022</Value>
-        <Value Name="_3">0.4856</Value>
-        <Value Name="_4">0.4474</Value>
-        <Value Name="_5">0.4020</Value>
+        <Value Name="_0">1.2018</Value>
+        <Value Name="_1">0.90646</Value>
+        <Value Name="_2">0.60958</Value>
+        <Value Name="_3">0.50081</Value>
+        <Value Name="_4">0.38039</Value>
       </Row>
     </Table>
     <Table>
       <Name>T_PitchSpeedIntegralGain</Name>
       <Enabled>0</Enabled>
       <RowCount>2</RowCount>
-      <Length>6</Length>
+      <Length>5</Length>
       <Row>
         <Value Name="_0">0</Value>
         <Value Name="_1">0</Value>
         <Value Name="_2">0</Value>
         <Value Name="_3">0</Value>
         <Value Name="_4">0</Value>
-        <Value Name="_5">0</Value>
       </Row>
       <Row>
         <Value Name="_0">0</Value>
@@ -2562,21 +2559,19 @@
         <Value Name="_2">0</Value>
         <Value Name="_3">0</Value>
         <Value Name="_4">0</Value>
-        <Value Name="_5">0</Value>
       </Row>
     </Table>
     <Table>
       <Name>T_PitchSpeedIntegralGainFast</Name>
       <Enabled>0</Enabled>
       <RowCount>2</RowCount>
-      <Length>6</Length>
+      <Length>5</Length>
       <Row>
         <Value Name="_0">0</Value>
         <Value Name="_1">0</Value>
         <Value Name="_2">0</Value>
         <Value Name="_3">0</Value>
         <Value Name="_4">0</Value>
-        <Value Name="_5">0</Value>
       </Row>
       <Row>
         <Value Name="_0">0</Value>
@@ -2584,7 +2579,6 @@
         <Value Name="_2">0</Value>
         <Value Name="_3">0</Value>
         <Value Name="_4">0</Value>
-        <Value Name="_5">0</Value>
       </Row>
     </Table>
     <Table>
@@ -2593,42 +2587,40 @@
       <RowCount>2</RowCount>
       <Length>6</Length>
       <Row>
-        <Value Name="_0">0.0393</Value>
-        <Value Name="_1">0.0695</Value>
-        <Value Name="_2">0.133</Value>
-        <Value Name="_3">0.2101</Value>
-        <Value Name="_4">0.2616</Value>
-        <Value Name="_5">0.3194</Value>
+        <Value Name="_0">0.0347294938917976</Value>
+        <Value Name="_1">0.0888307155322862</Value>
+        <Value Name="_2">0.158464223385689</Value>
+        <Value Name="_3">0.212914485165794</Value>
+        <Value Name="_4">0.282897033158813</Value>
+        <Value Name="_5">0.345026178010471</Value>
       </Row>
       <Row>
-        <Value Name="_0">17.13</Value>
-        <Value Name="_1">15.4373</Value>
-        <Value Name="_2">12.8116</Value>
-        <Value Name="_3">10.7987</Value>
-        <Value Name="_4">8.9388</Value>
-        <Value Name="_5">7.9388</Value>
+        <Value Name="_0">18.567</Value>
+        <Value Name="_1">12.278</Value>
+        <Value Name="_2">8.06</Value>
+        <Value Name="_3">6.15</Value>
+        <Value Name="_4">5.15</Value>
+        <Value Name="_5">2.62</Value>
       </Row>
     </Table>
     <Table>
       <Name>T_PitchSpeedIntegralTimeConstantFast</Name>
-      <Enabled>1</Enabled>
+      <Enabled>0</Enabled>
       <RowCount>2</RowCount>
-      <Length>6</Length>
+      <Length>5</Length>
       <Row>
-        <Value Name="_0">0.0393</Value>
-        <Value Name="_1">0.0695</Value>
-        <Value Name="_2">0.133</Value>
-        <Value Name="_3">0.2101</Value>
-        <Value Name="_4">0.2616</Value>
-        <Value Name="_5">0.3194</Value>
+        <Value Name="_0">0.0496</Value>
+        <Value Name="_1">0.1649</Value>
+        <Value Name="_2">0.2423</Value>
+        <Value Name="_3">0.3081</Value>
+        <Value Name="_4">0.3483</Value>
       </Row>
       <Row>
-        <Value Name="_0">17.13</Value>
-        <Value Name="_1">15.4373</Value>
-        <Value Name="_2">12.8116</Value>
-        <Value Name="_3">10.7987</Value>
-        <Value Name="_4">8.9388</Value>
-        <Value Name="_5">7.9388</Value>
+        <Value Name="_0">5.9436</Value>
+        <Value Name="_1">3.9164</Value>
+        <Value Name="_2">2.7746</Value>
+        <Value Name="_3">2.5856</Value>
+        <Value Name="_4">2.0964</Value>
       </Row>
     </Table>
     <Table>
@@ -2637,76 +2629,80 @@
       <RowCount>2</RowCount>
       <Length>6</Length>
       <Row>
-        <Value Name="_0">0.0393</Value>
-        <Value Name="_1">0.0695</Value>
-        <Value Name="_2">0.133</Value>
-        <Value Name="_3">0.2101</Value>
-        <Value Name="_4">0.2616</Value>
-        <Value Name="_5">0.3194</Value>
+        <Value Name="_0">0.0347294938917976</Value>
+        <Value Name="_1">0.0888307155322862</Value>
+        <Value Name="_2">0.158464223385689</Value>
+        <Value Name="_3">0.212914485165794</Value>
+        <Value Name="_4">0.282897033158813</Value>
+        <Value Name="_5">0.345026178010471</Value>
       </Row>
       <Row>
-        <Value Name="_0">0.5</Value>
-        <Value Name="_1">0.4</Value>
-        <Value Name="_2">0.3</Value>
-        <Value Name="_3">0.2</Value>
-        <Value Name="_4">0.1</Value>
-        <Value Name="_5">0.05</Value>
+        <Value Name="_0">0.6067</Value>
+        <Value Name="_1">0.448</Value>
+        <Value Name="_2">0.364</Value>
+        <Value Name="_3">0.333</Value>
+        <Value Name="_4">0.25</Value>
+        <Value Name="_5">0.1</Value>
       </Row>
     </Table>
     <Table>
       <Name>T_PitchSpeedDerivativeGainScheduleFast</Name>
-      <Enabled>1</Enabled>
+      <Enabled>0</Enabled>
       <RowCount>2</RowCount>
-      <Length>6</Length>
+      <Length>5</Length>
       <Row>
-        <Value Name="_0">0.0393</Value>
-        <Value Name="_1">0.0695</Value>
-        <Value Name="_2">0.133</Value>
-        <Value Name="_3">0.2101</Value>
-        <Value Name="_4">0.2616</Value>
-        <Value Name="_5">0.3194</Value>
+        <Value Name="_0">0.0496</Value>
+        <Value Name="_1">0.1649</Value>
+        <Value Name="_2">0.2423</Value>
+        <Value Name="_3">0.3081</Value>
+        <Value Name="_4">0.3483</Value>
       </Row>
       <Row>
-        <Value Name="_0">0.8</Value>
+        <Value Name="_0">1.0</Value>
         <Value Name="_1">0.7</Value>
-        <Value Name="_2">0.6</Value>
-        <Value Name="_3">0.5</Value>
-        <Value Name="_4">0.4</Value>
-        <Value Name="_5">0.3</Value>
+        <Value Name="_2">0.5</Value>
+        <Value Name="_3">0.4</Value>
+        <Value Name="_4">0.2</Value>
       </Row>
     </Table>
     <Table>
       <Name>T_ErrorSchedule</Name>
       <Enabled>0</Enabled>
       <RowCount>2</RowCount>
-      <Length>2</Length>
+      <Length>3</Length>
       <Row>
         <Value Name="_0">0.0015</Value>
-        <Value Name="_1">0.003</Value>
+        <Value Name="_1">0.0025</Value>
+        <Value Name="_2">0.004</Value>
       </Row>
       <Row>
         <Value Name="_0">1</Value>
-        <Value Name="_1">2</Value>
+        <Value Name="_1">1.5</Value>
+        <Value Name="_2">1.2</Value>
       </Row>
     </Table>
     <Table>
       <Name>T_EEdotThresholdOnPitch</Name>
-      <Enabled>1</Enabled>
+      <Enabled>0</Enabled>
       <RowCount>2</RowCount>
-      <Length>5</Length>
+      <Length>7</Length>
       <Row>
         <Value Name="_0">0</Value>
         <Value Name="_1">0.0698</Value>
         <Value Name="_2">0.1745</Value>
-        <Value Name="_3">0.2618</Value>
-        <Value Name="_4">0.3491</Value>
+        <Value Name="_3">0.2182</Value>
+        <Value Name="_4">0.3054</Value>
+        <Value Name="_5">0.349</Value>
+        <Value Name="_6">0.5236</Value>
       </Row>
       <Row>
-        <Value Name="_0">0.00047</Value>
-        <Value Name="_1">0.001</Value>
-        <Value Name="_2">0.0028</Value>
-        <Value Name="_3">0.0035</Value>
-        <Value Name="_4">0.0035</Value>
+        <Value Name="_0">0.00034</Value>
+        <Value Name="_1">0.00034</Value>
+        <Value Name="_2">0.0014</Value>
+        <Value Name="_3">0.0022</Value>
+        <Value Name="_4">0.0029</Value>
+        <Value Name="_5">0.0037</Value>
+        <Value Name="_6">0.0038</Value>
       </Row>
     </Table>
     <Table>
@@ -2757,22 +2753,24 @@
     </Table>
     <Table>
       <Name>T_DynamicFinePitch</Name>
-      <Enabled>0</Enabled>
+      <Enabled>1</Enabled>
       <RowCount>2</RowCount>
-      <Length>5</Length>
+      <Length>6</Length>
       <Row>
-        <Value Name="_0">-0.008727</Value>
-        <Value Name="_1">0.0873</Value>
-        <Value Name="_2">0.1396</Value>
-        <Value Name="_3">0.1745</Value>
-        <Value Name="_4">0.3491</Value>
+        <Value Name="_0">0</Value>
+        <Value Name="_1">0.01745</Value>
+        <Value Name="_2">0.0873</Value>
+        <Value Name="_3">0.1396</Value>
+        <Value Name="_4">0.1745</Value>
+        <Value Name="_5">0.3491</Value>
       </Row>
       <Row>
-        <Value Name="_0">-0.008727</Value>
-        <Value Name="_1">0.0349</Value>
-        <Value Name="_2">0.0698</Value>
-        <Value Name="_3">0.0873</Value>
-        <Value Name="_4">0.1047</Value>
+        <Value Name="_0">0</Value>
+        <Value Name="_1">0</Value>
+        <Value Name="_2">0.0349</Value>
+        <Value Name="_3">0.0698</Value>
+        <Value Name="_4">0.0873</Value>
+        <Value Name="_5">0.1047</Value>
       </Row>
     </Table>
     <Table>
@@ -2793,20 +2791,18 @@
       <Name>T_FinePitchScheduleNacAccXThreshold</Name>
       <Enabled>0</Enabled>
       <RowCount>2</RowCount>
-      <Length>5</Length>
+      <Length>4</Length>
       <Row>
         <Value Name="_0">5</Value>
         <Value Name="_1">7</Value>
         <Value Name="_2">9</Value>
         <Value Name="_3">13</Value>
-        <Value Name="_4">15</Value>
       </Row>
       <Row>
         <Value Name="_0">0.3</Value>
         <Value Name="_1">0.15</Value>
-        <Value Name="_2">0.135</Value>
-        <Value Name="_3">0.166</Value>
-        <Value Name="_4">0.2</Value>
+        <Value Name="_2">0.12</Value>
+        <Value Name="_3">0.12</Value>
       </Row>
     </Table>
     <Table>
@@ -2847,13 +2843,13 @@
       <Row>
         <Value Name="_0">3</Value>
         <Value Name="_1">5</Value>
-        <Value Name="_2">25</Value>
-        <Value Name="_3">30</Value>
+        <Value Name="_2">22</Value>
+        <Value Name="_3">28</Value>
       </Row>
       <Row>
         <Value Name="_0">0.035</Value>
         <Value Name="_1">0.1</Value>
-        <Value Name="_2">0.5</Value>
+        <Value Name="_2">0.6</Value>
         <Value Name="_3">1.5</Value>
       </Row>
     </Table>
@@ -2861,16 +2857,14 @@
       <Name>T_StartupPitchTSRSchedule</Name>
       <Enabled>1</Enabled>
       <RowCount>2</RowCount>
-      <Length>3</Length>
+      <Length>2</Length>
       <Row>
-        <Value Name="_0">0.3</Value>
-        <Value Name="_1">1</Value>
-        <Value Name="_2">4</Value>
+        <Value Name="_0">1</Value>
+        <Value Name="_1">4</Value>
       </Row>
       <Row>
-        <Value Name="_0">1.3963</Value>
-        <Value Name="_1">0.69813</Value>
-        <Value Name="_2">0</Value>
+        <Value Name="_0">0.69813</Value>
+        <Value Name="_1">0</Value>
       </Row>
     </Table>
     <Table>
@@ -2889,7 +2883,7 @@
     </Table>
     <Table>
       <Name>T_IpcMaximumPitchTorqueSchedule</Name>
-      <Enabled>0</Enabled>
+      <Enabled>1</Enabled>
       <RowCount>2</RowCount>
       <Length>2</Length>
       <Row>
@@ -2903,7 +2897,7 @@
     </Table>
     <Table>
       <Name>T_IpcMaximumPitchGenAccSchedule</Name>
-      <Enabled>0</Enabled>
+      <Enabled>1</Enabled>
       <RowCount>2</RowCount>
       <Length>3</Length>
       <Row>
@@ -2919,7 +2913,7 @@
     </Table>
     <Table>
       <Name>T_IpcMinimumPitchPitchSchedule</Name>
-      <Enabled>0</Enabled>
+      <Enabled>1</Enabled>
       <RowCount>2</RowCount>
       <Length>3</Length>
       <Row>
@@ -2965,7 +2959,7 @@
     </Table>
     <Table>
       <Name>T_IpcMinimumPitchYawErrorSchedule</Name>
-      <Enabled>0</Enabled>
+      <Enabled>1</Enabled>
       <RowCount>2</RowCount>
       <Length>3</Length>
       <Row>
@@ -2981,7 +2975,7 @@
     </Table>
     <Table>
       <Name>T_2PIpcGainSchedOnRateAmplitude</Name>
-      <Enabled>0</Enabled>
+      <Enabled>1</Enabled>
       <RowCount>2</RowCount>
       <Length>3</Length>
       <Row>
@@ -3020,9 +3014,9 @@
       <Length>4</Length>
       <Row>
         <Value Name="_0">5</Value>
-        <Value Name="_1">7</Value>
-        <Value Name="_2">9</Value>
-        <Value Name="_3">13</Value>
+        <Value Name="_1">10</Value>
+        <Value Name="_2">15</Value>
+        <Value Name="_3">20</Value>
       </Row>
       <Row>
         <Value Name="_0">0.3</Value>
@@ -3038,15 +3032,15 @@
       <Length>4</Length>
       <Row>
         <Value Name="_0">0</Value>
-        <Value Name="_1">14</Value>
-        <Value Name="_2">15</Value>
+        <Value Name="_1">16</Value>
+        <Value Name="_2">17</Value>
         <Value Name="_3">20</Value>
       </Row>
       <Row>
         <Value Name="_0">1</Value>
         <Value Name="_1">1</Value>
-        <Value Name="_2">1</Value>
-        <Value Name="_3">0.6</Value>
+        <Value Name="_2">0.88</Value>
+        <Value Name="_3">0.65</Value>
       </Row>
     </Table>
     <Table>
@@ -3056,15 +3050,15 @@
       <Length>4</Length>
       <Row>
         <Value Name="_0">0</Value>
-        <Value Name="_1">16.0</Value>
-        <Value Name="_2">19.0</Value>
-        <Value Name="_3">23.0</Value>
+        <Value Name="_1">14</Value>
+        <Value Name="_2">15</Value>
+        <Value Name="_3">20</Value>
       </Row>
       <Row>
         <Value Name="_0">1</Value>
         <Value Name="_1">1</Value>
         <Value Name="_2">1</Value>
-        <Value Name="_3">0.68</Value>
+        <Value Name="_3">0.6</Value>
       </Row>
     </Table>
     <Table>
@@ -3093,7 +3087,7 @@
       <RowCount>2</RowCount>
       <Length>5</Length>
       <Row>
-        <Value Name="_0">0.6282</Value>
+        <Value Name="_0">0.4189</Value>
         <Value Name="_1">1.1</Value>
         <Value Name="_2">1.2357</Value>
         <Value Name="_3">1.482</Value>
@@ -3114,7 +3108,7 @@
       <Length>6</Length>
       <Row>
         <Value Name="_0">-0.01745</Value>
-        <Value Name="_1">0.0873</Value>
+        <Value Name="_1">0.175</Value>
         <Value Name="_2">0.3142</Value>
         <Value Name="_3">0.4712</Value>
         <Value Name="_4">0.5236</Value>
@@ -3153,16 +3147,22 @@
       <Name>T_NormalShutdownTorque</Name>
       <Enabled>0</Enabled>
       <RowCount>2</RowCount>
-      <Length>3</Length>
+      <Length>6</Length>
       <Row>
-        <Value Name="_0">0</Value>
-        <Value Name="_1">267706</Value>
-        <Value Name="_2">1894804</Value>
+        <Value Name="_0">-0.01745</Value>
+        <Value Name="_1">0.0873</Value>
+        <Value Name="_2">0.3142</Value>
+        <Value Name="_3">0.4712</Value>
+        <Value Name="_4">0.5236</Value>
+        <Value Name="_5">1.571</Value>
       </Row>
       <Row>
-        <Value Name="_0">0</Value>
-        <Value Name="_1">313570</Value>
-        <Value Name="_2">1397780</Value>
+        <Value Name="_0">0.0349</Value>
+        <Value Name="_1">0.0349</Value>
+        <Value Name="_2">0.0349</Value>
+        <Value Name="_3">0.0349</Value>
+        <Value Name="_4">0.0349</Value>
+        <Value Name="_5">0.0349</Value>
       </Row>
     </Table>
     <Table>
@@ -3172,7 +3172,7 @@
       <Length>4</Length>
       <Row>
         <Value Name="_0">0.08726</Value>
-        <Value Name="_1">0.08726</Value>
+        <Value Name="_1">0.08727</Value>
         <Value Name="_2">0.694</Value>
         <Value Name="_3">0.694</Value>
       </Row>
@@ -3185,16 +3185,16 @@
     </Table>
     <Table>
       <Name>T_GridLossShutdownTorque</Name>
-      <Enabled>1</Enabled>
+      <Enabled>0</Enabled>
       <RowCount>2</RowCount>
       <Length>2</Length>
       <Row>
         <Value Name="_0">0</Value>
-        <Value Name="_1">4</Value>
+        <Value Name="_1">1</Value>
       </Row>
       <Row>
-        <Value Name="_0">13376</Value>
-        <Value Name="_1">0</Value>
+        <Value Name="_0">3017000</Value>
+        <Value Name="_1">3017000</Value>
       </Row>
     </Table>
     <Table>
@@ -3217,7 +3217,7 @@
     </Table>
     <Table>
       <Name>T_NonLinearNacelleAccelerationThreshold</Name>
-      <Enabled>1</Enabled>
+      <Enabled>0</Enabled>
       <RowCount>2</RowCount>
       <Length>4</Length>
       <Row>
@@ -3239,8 +3239,8 @@
       <RowCount>2</RowCount>
       <Length>2</Length>
       <Row>
-        <Value Name="_0">-0.065</Value>
-        <Value Name="_1">-0.022</Value>
+        <Value Name="_0">-0.058</Value>
+        <Value Name="_1">-0.0288</Value>
       </Row>
       <Row>
         <Value Name="_0">1</Value>
@@ -3253,8 +3253,8 @@
       <RowCount>2</RowCount>
       <Length>8</Length>
       <Row>
-        <Value Name="_0">-0.008727</Value>
-        <Value Name="_1">-0.0082</Value>
+        <Value Name="_0">-0.0087</Value>
+        <Value Name="_1">0.0087</Value>
         <Value Name="_2">0.0063</Value>
         <Value Name="_3">0.1255</Value>
         <Value Name="_4">0.3005</Value>
@@ -3277,24 +3277,20 @@
       <Name>T_NonLinearGenAccThresholdAfterDelay</Name>
       <Enabled>0</Enabled>
       <RowCount>2</RowCount>
-      <Length>7</Length>
+      <Length>5</Length>
       <Row>
-        <Value Name="_0">-0.008727</Value>
-        <Value Name="_1">0.0049</Value>
-        <Value Name="_2">0.1072</Value>
-        <Value Name="_3">0.2869</Value>
-        <Value Name="_4">0.3859</Value>
-        <Value Name="_5">0.4197</Value>
-        <Value Name="_6">0.6109</Value>
+        <Value Name="_0">-0.0087</Value>
+        <Value Name="_1">0.087</Value>
+        <Value Name="_2">0.270157068062827</Value>
+        <Value Name="_3">0.349040139616056</Value>
+        <Value Name="_4">0.43630017452007</Value>
       </Row>
       <Row>
-        <Value Name="_0">0.0216</Value>
-        <Value Name="_1">0.0216</Value>
-        <Value Name="_2">0.0213</Value>
-        <Value Name="_3">0.0409</Value>
-        <Value Name="_4">0.0642</Value>
-        <Value Name="_5">0.1066</Value>
-        <Value Name="_6">0.1066</Value>
+        <Value Name="_0">0.02521</Value>
+        <Value Name="_1">0.03781</Value>
+        <Value Name="_2">0.05972</Value>
+        <Value Name="_3">0.08</Value>
+        <Value Name="_4">0.08</Value>
       </Row>
     </Table>
     <Table>
@@ -3319,7 +3315,7 @@
     </Table>
     <Table>
       <Name>T_LidarBeamConfiguration</Name>
-      <Enabled>0</Enabled>
+      <Enabled>1</Enabled>
       <RowCount>2</RowCount>
       <Length>4</Length>
       <Row>
@@ -3337,7 +3333,7 @@
     </Table>
     <Table>
       <Name>T_LidarFocusDistance</Name>
-      <Enabled>0</Enabled>
+      <Enabled>1</Enabled>
       <RowCount>2</RowCount>
       <Length>8</Length>
       <Row>
@@ -3346,45 +3342,45 @@
         <Value Name="_2">1</Value>
         <Value Name="_3">1</Value>
         <Value Name="_4">1</Value>
-        <Value Name="_5">1</Value>
-        <Value Name="_6">1</Value>
-        <Value Name="_7">1</Value>
+        <Value Name="_5">0</Value>
+        <Value Name="_6">0</Value>
+        <Value Name="_7">0</Value>
       </Row>
       <Row>
-        <Value Name="_0">45</Value>
-        <Value Name="_1">65</Value>
-        <Value Name="_2">85</Value>
-        <Value Name="_3">105</Value>
-        <Value Name="_4">125</Value>
-        <Value Name="_5">145</Value>
-        <Value Name="_6">165</Value>
-        <Value Name="_7">185</Value>
+        <Value Name="_0">60</Value>
+        <Value Name="_1">90</Value>
+        <Value Name="_2">120</Value>
+        <Value Name="_3">150</Value>
+        <Value Name="_4">180</Value>
+        <Value Name="_5">210</Value>
+        <Value Name="_6">240</Value>
+        <Value Name="_7">270</Value>
       </Row>
     </Table>
     <Table>
       <Name>T_WsDthetaDv0</Name>
-      <Enabled>0</Enabled>
+      <Enabled>1</Enabled>
       <RowCount>2</RowCount>
       <Length>8</Length>
       <Row>
         <Value Name="_0">3</Value>
-        <Value Name="_1">9.1</Value>
-        <Value Name="_2">9.2</Value>
-        <Value Name="_3">9.3</Value>
+        <Value Name="_1">8.5</Value>
+        <Value Name="_2">8.6</Value>
+        <Value Name="_3">8.7</Value>
         <Value Name="_4">9.5</Value>
         <Value Name="_5">10.5</Value>
         <Value Name="_6">13</Value>
-        <Value Name="_7">22</Value>
+        <Value Name="_7">18</Value>
       </Row>
       <Row>
         <Value Name="_0">0</Value>
         <Value Name="_1">0</Value>
-        <Value Name="_2">0.0420999999999994</Value>
-        <Value Name="_3">0.17472</Value>
-        <Value Name="_4">0.0919200000000004</Value>
-        <Value Name="_5">0.0458800000000001</Value>
-        <Value Name="_6">0.02934</Value>
-        <Value Name="_7">0.0191299999999997</Value>
+        <Value Name="_2">0.0742</Value>
+        <Value Name="_3">0.165</Value>
+        <Value Name="_4">0.049</Value>
+        <Value Name="_5">0.036</Value>
+        <Value Name="_6">0.0265</Value>
+        <Value Name="_7">0.0211</Value>
       </Row>
     </Table>
     <Table>
